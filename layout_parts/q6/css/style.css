@@ -30,7 +30,7 @@
   display: table;
 }
 
-.q6-2-box {
+.q6-table-box {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -57,7 +57,7 @@
   position: relative;
 }
 
-.q6__box.is-stable .q6__box__inner {
+.position-stable {
   position: absolute;
   top: 0;
   left: 0;
@@ -66,7 +66,7 @@
   margin: auto;
 }
 
-.q6__box.is-flexible .q6__box__inner {
+.position-flexible {
   position: absolute;
   top: 50%;
   left: 50%;

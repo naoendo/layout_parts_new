@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
+.q5-number-box {
   position: relative;
   margin: 0 auto;
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .box_q5 {

@@ -26,11 +26,11 @@
   text-align: center;
 }
 
-.meal tr:last-child {
+.meal tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
-.meal tr:nth-child(odd) {
+.meal tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */
