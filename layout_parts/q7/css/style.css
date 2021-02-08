@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q7--float.q7__box {
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
 
+.q7__box {
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+
+.q7--table .q7__inner {
+  display: table;
+}
+
+.q7--table .q7__box {
+  display: table-cell;
+  padding-left: 50px;
+}
+
+.q7--table .q7__box:first-child {
+  padding-left: 0;
+}
+
+.q7--inlineblock .q7__box {
+ display: inline-block;
+}
 /* 回答はここに書いてね */
