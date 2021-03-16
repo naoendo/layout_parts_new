@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9-balloon {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
 
+.q9-text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.q9-balloon:before {
+  position: absolute;
+  content:"";
+  width: 0;
+  height: 0;
+  left: 25px;
+  bottom: -20px;
+  border-top: 20px solid #222;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+
+.q9-balloon:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  left: 30px;
+  bottom: -15px;
+  border-top: 15px solid #fff;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
 /* 回答はここに書いてね */
