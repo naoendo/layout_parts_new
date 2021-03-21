@@ -15,27 +15,22 @@
   line-height: 16px;
 }
 
-.q9-balloon:before {
+.q9-balloon:before, .q9-balloon:after {
   position: absolute;
   content:"";
   width: 0;
   height: 0;
   left: 25px;
-  bottom: -20px;
-  border-top: 20px solid #222;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
+  border: 20px solid transparent;
+}
+
+.q9-balloon:before {
+  bottom: -40px;
+  border-top-color: #222;
 }
 
 .q9-balloon:after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 0;
-  left: 30px;
-  bottom: -15px;
-  border-top: 15px solid #fff;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
+  bottom: -35px;
+  border-top-color: #fff;
 }
 /* 回答はここに書いてね */

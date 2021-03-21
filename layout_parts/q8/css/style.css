@@ -18,13 +18,16 @@
   transition: all .5s;
 }
 
+.q8-car {
+  transition: all .5s;
+}
+
 .q8-transition:hover .q8-gradation {
  top: 0;
 }
 
 .q8-transition:hover .q8-car {
  transform: scale(1.5);
- transition: all .5s;
 }
 
 .text {
